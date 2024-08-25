@@ -9,7 +9,7 @@ const Project2Column = () => {
         <>
             <div className="wrapper">
                 <HeaderV5 />
-                <BreadCrumb breadCrumb="project-2-column" title1="Take a look some of" title2="our recent case studies" bottomSpace="pb-0" />
+                <BreadCrumb breadCrumb="project-2-column" title1="Recent case studies" bottomSpace="pb-0" />
                 <ProjectColumnContent columns="colums-2" />
                 <FooterV1 />
             </div>

@@ -29,7 +29,7 @@ const MainMenu = ({ isOpen, closeMenu, toggleSubMenu, toggleMegaMenu }) => {
                         </ul>
                     </li>
                     <li className="dropdown megamenu-fw">
-                        <Link to={void (0)} className="dropdown-toggle" onClick={toggleSubMenu}>MegaMenu</Link>
+                        <Link to={void (0)} className="dropdown-toggle" onClick={toggleSubMenu}>Portfolios</Link>
                         <ul className="dropdown-menu megamenu-content">
                             <li>
                                 <div className="row">
