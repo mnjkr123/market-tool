@@ -4,7 +4,7 @@ import HeaderV5 from '../../components/header/HeaderV5';
 import BreadCrumb from '../../components/breadCrumb/BreadCrumb';
 import FooterV1 from '../../components/footer/FooterV1';
 
-const Campaign = () => {
+const CampaignForm = () => {
     const [formInput, setFormInput] = useState('');
     const [ageOption, setAgeOption] = useState('Children');
     const [taskTypeOption, setTaskTypeOption] = useState('Write a sales copy');
@@ -133,6 +133,6 @@ const Campaign = () => {
     );
 };
 
-export default Campaign;
+export default CampaignForm;
 
 
