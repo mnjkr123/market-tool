@@ -8,7 +8,7 @@ import SinglePopularService from './SinglePopularService';
 import ServiceFaqV1 from '../faq/ServiceFaqV1';
 
 const ServicesDetailsContent = ({ serviceInfo }) => {
-    const { thumb, text, title } = serviceInfo
+    const { thumb, text, title } = serviceInfo;
 
     return (
         <>
@@ -18,7 +18,7 @@ const ServicesDetailsContent = ({ serviceInfo }) => {
                         <div className="row">
                             <div className="col-xl-8 col-lg-7 pr-45 pr-md-15 pr-xs-15 services-single-content">
                                 <div className="service-single-thumb">
-                                    <img src={`/img/services/${thumb}`} alt="Thumb" />
+                                    <img src={`/img/services/${thumb}`} alt={`${title} Thumbnail`} />
                                 </div>
                                 <h2>{title}</h2>
                                 <p>{text}</p>
@@ -36,21 +36,21 @@ const ServicesDetailsContent = ({ serviceInfo }) => {
                                         </div>
                                         <div className="col-lg-7 col-md-6 mt-xs-30">
                                             <div className="content">
-                                                <h3>The Challange</h3>
+                                                <h3>The Challenge</h3>
                                                 <p>
-                                                    Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias. consequatur aut perferendis doloribus.
+                                                    At our company, we understand that challenges arise in every project. We address these by thoroughly analyzing the situation, developing innovative solutions, and continuously improving our processes. Our goal is to overcome obstacles and deliver outstanding results for our clients.
                                                 </p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <h3>What we do?</h3>
+                                <h3>What We Do</h3>
                                 <p>
-                                    Nam libero tempore, cum soluta nobis est elig endi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repelle ndus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias. consequatur aut perferendis doloribus asperiores repellat. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains.  pleasures have to be repudiated and annoyances accepted.
+                                    We specialize in providing tailored solutions to meet your unique needs. Our team is dedicated to understanding your goals, offering expert advice, and implementing strategies that drive success. We strive to deliver exceptional value and ensure complete satisfaction in every project we undertake.
                                 </p>
 
                                 <div className="faq-style-one service-faq mt-40">
-                                    <h2 className="mb-30">Questions about service</h2>
+                                    <h2 className="mb-30">Questions About Our Service</h2>
                                     <ServiceFaqV1 />
                                 </div>
                                 <div className="services-more mt-40">

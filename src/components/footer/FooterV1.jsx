@@ -24,7 +24,7 @@ const FooterV1 = () => {
                                 <div className="f-item about pr-50 pr-xs-0 pr-md-0">
                                     <img className="logo" src="/img/logo/logo-light.png" alt="Logo" />
                                     <p>
-                                        Are off under folly death writter transforming cold regular. Almost do am or limits of hearts.
+                                    Unlock the full potential of your marketing strategy with our advanced tools and insights.
                                     </p>
                                     <div className="footer-social mt-30">
                                         <ul>
@@ -67,13 +67,13 @@ const FooterV1 = () => {
                                         <li>
                                             <div className="content">
                                                 <strong>Address:</strong>
-                                                5919 Trussville Crossings Pkwy, Birmingham
+                                                663 Cardiff Irvine, CA 92606
                                             </div>
                                         </li>
                                         <li>
                                             <div className="content">
                                                 <strong>Email:</strong>
-                                                <a href="mailto:info@validtheme.com">info@validtheme.com</a>
+                                                <a href="mailto:mail@pluggai.com">mail@pluggai.com</a>
                                             </div>
                                         </li>
                                         <li>
@@ -107,7 +107,7 @@ const FooterV1 = () => {
                         <div className="row">
                             <div className="col-lg-12">
                                 <p>
-                                    Copyright &copy; {(new Date().getFullYear())} ValidThemes. All Rights Reserved
+                                    Copyright &copy; {(new Date().getFullYear())} PluggAI. All Rights Reserved
                                 </p>
                             </div>
                         </div>

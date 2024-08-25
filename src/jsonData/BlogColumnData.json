@@ -5,11 +5,10 @@
         "thumb2": "1.jpg",
         "author": "Md Sohag",
         "date": "25 April, 2024",
-        "title": "Miscovery incommode earnestly is commanded",
+        "title": "Maximizing ROI with Data-Driven Marketing Campaigns",
         "icon": "fa-solid fa-arrow-right",
         "postLink": "blog-single-sidebar",
         "btnText": "Continue Reading"
-
     },
     {
         "id": 2,
@@ -17,11 +16,10 @@
         "thumb2": "2.jpg",
         "author": "Md Sohag",
         "date": "25 May, 2024",
-        "title": "Expression acceptance imprudence in mentions.",
+        "title": "How to Choose the Right Marketing Automation Tools",
         "icon": "fa-solid fa-arrow-right",
         "postLink": "blog-single-sidebar",
         "btnText": "Continue Reading"
-
     },
     {
         "id": 3,
@@ -29,11 +27,10 @@
         "thumb2": "3.jpg",
         "author": "Md Sohag",
         "date": "25 June, 2024",
-        "title": "Considered imprudence of technical friendship.",
+        "title": "Leveraging Social Media Analytics for Better Campaign Results",
         "icon": "fa-solid fa-arrow-right",
         "postLink": "blog-single-sidebar",
         "btnText": "Continue Reading"
-
     },
     {
         "id": 4,
@@ -41,11 +38,10 @@
         "thumb2": "4.jpg",
         "author": "Md Sohag",
         "date": "25 July, 2024",
-        "title": "Miscovery incommode earnestly is commanded",
+        "title": "Personalization Strategies for Effective Email Marketing",
         "icon": "fa-solid fa-arrow-right",
         "postLink": "blog-single-sidebar",
         "btnText": "Continue Reading"
-
     },
     {
         "id": 5,
@@ -53,11 +49,10 @@
         "thumb2": "5.jpg",
         "author": "Md Sohag",
         "date": "25 August, 2024",
-        "title": "Expression acceptance imprudence in mentions.",
+        "title": "Integrating AI Tools for Enhanced Customer Insights",
         "icon": "fa-solid fa-arrow-right",
         "postLink": "blog-single-sidebar",
         "btnText": "Continue Reading"
-
     },
     {
         "id": 6,
@@ -65,10 +60,9 @@
         "thumb2": "6.jpg",
         "author": "Md Sohag",
         "date": "25 September, 2024",
-        "title": "Considered imprudence of technical friendship.",
+        "title": "The Future of Marketing: Trends and Innovations to Watch",
         "icon": "fa-solid fa-arrow-right",
         "postLink": "blog-single-sidebar",
         "btnText": "Continue Reading"
-
     }
 ]

@@ -7,8 +7,8 @@
         "dataTarget": "#collapseOne",
         "ariaExpanded": "true",
         "ariaControls": "collapseOne",
-        "title": "Where can I get software help?",
-        "text": "Bennings appetite disposed me an at subjects an. To no indulgence diminution so discovered mr apartments. Are off under folly death wrote cause her way spite. Plan upon yet way get cold spot its week. Almost do am or limits hearts. Resolve parties but why she shewing. She sang know now minute exact dear open to reaching out.",
+        "title": "How can I get technical support for your software?",
+        "text": "You can get technical support for our software by reaching out through our dedicated support portal available on our website. You can also contact our customer service team via email or phone during business hours. For immediate assistance, we offer live chat support directly on our website.",
         "collapseShow": "show"
     },
     {
@@ -19,8 +19,8 @@
         "dataTarget": "#collapseTwo",
         "ariaExpanded": "false",
         "ariaControls": "collapseTwo",
-        "title": "How much does data software costs?",
-        "text": "Cannings appetite disposed me an at subjects an. To no indulgence diminution so discovered mr apartments. Are off under folly death wrote cause her way spite. Plan upon yet way get cold spot its week.",
+        "title": "What is the cost of your data software?",
+        "text": "The cost of our data software varies depending on the package and features you choose. We offer several pricing tiers to accommodate different needs, from basic packages to more advanced solutions. For a detailed quote, please contact our sales team or visit our pricing page on the website.",
         "collapseShow": ""
     },
     {
@@ -31,8 +31,8 @@
         "dataTarget": "#collapseThree",
         "ariaExpanded": "false",
         "ariaControls": "collapseThree",
-        "title": "What kind of data is needed for software?",
-        "text": "Tannings appetite disposed me an at subjects an. To no indulgence diminution so discovered mr apartments. Are off under folly death wrote cause her way spite. Plan upon yet way get cold spot its week.",
+        "title": "What types of data are compatible with your software?",
+        "text": "Our software is designed to handle a wide variety of data types, including structured data from databases, unstructured data from text files, and real-time data streams. Common formats include CSV, JSON, XML, and Excel files. For specific compatibility questions, please refer to our documentation or contact our support team.",
         "collapseShow": "show"
     }
 ]
