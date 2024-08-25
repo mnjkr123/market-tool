@@ -1,0 +1,80 @@
+/* campaign.css */
+.Campaign {
+  text-align: center;
+  padding: 20px;
+}
+
+.Campaign-header-image {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+}
+
+.Campaign-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Campaign-textarea {
+  width: 100%;
+  max-width: 600px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.selectors-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.select-container {
+  width: 100%;
+  max-width: 600px;
+}
+
+.Campaign-label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.Campaign-select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.Campaign-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.Campaign-button:hover {
+  background-color: #0056b3;
+}
+
+.response-box {
+  margin-top: 20px;
+  text-align: left;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.response-box p {
+  white-space: pre-wrap; /* Ensures response is displayed correctly */
+}

@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+  background-color: lightSkyBlue;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.App-textarea {
+  font-size: 18px;
+  border: 2px solid #007bff;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.App-form-group {
+  margin-bottom: 20px;
+}
+
+.App-label {
+  display: block;
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.App-select {
+  font-size: 16px;
+  display: block;
+  margin: 10px auto;
+}
+
+.App-button {
+  font-size: 18px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.App-button:hover {
+  background-color: #0056b3;
+}
+
+.App-response-box {
+  margin-top: 20px;
+  padding: 20px;
+  border: 2px solid #28a745;
+  border-radius: 4px;
+  background-color: #d4edda;
+}
+
+.App-response-text {
+  font-size: 18px;
+  color: #155724;
+  font-weight: bold;
+  text-align: justify;
+}
