@@ -1,80 +1,78 @@
-/* campaign.css */
-.Campaign {
+.campaign-form-container {
+  padding: 50px 0;
+  background-color: #f9f9f9;
+}
+
+.campaign-title {
   text-align: center;
-  padding: 20px;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
 }
 
-.Campaign-header-image {
+.campaign-form {
+  max-width: 800px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 30px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.campaign-textarea {
   width: 100%;
-  max-width: 600px;
-  height: auto;
-}
-
-.Campaign-form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.Campaign-textarea {
-  width: 100%;
-  max-width: 600px;
-  padding: 10px;
-  font-size: 16px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+  padding: 15px;
   margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 1rem;
 }
 
 .selectors-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
+  justify-content: space-between;
+  margin-bottom: 20px;
 }
 
 .select-container {
-  width: 100%;
-  max-width: 600px;
+  flex: 1;
+  margin-right: 10px;
 }
 
-.Campaign-label {
-  display: block;
-  margin-bottom: 8px;
-  font-weight: bold;
-}
-
-.Campaign-select {
+.campaign-select {
   width: 100%;
   padding: 10px;
-  font-size: 16px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 1rem;
 }
 
-.Campaign-button {
-  padding: 10px 20px;
-  font-size: 16px;
-  color: #fff;
+.campaign-button {
+  width: 100%;
+  padding: 15px;
   background-color: #007bff;
+  color: #fff;
+  font-size: 1.2rem;
   border: none;
-  border-radius: 4px;
+  border-radius: 5px;
   cursor: pointer;
-  margin-top: 20px;
 }
 
-.Campaign-button:hover {
+.campaign-button:hover {
   background-color: #0056b3;
 }
 
-.response-box {
-  margin-top: 20px;
-  text-align: left;
-  width: 100%;
-  max-width: 600px;
-  margin: 0 auto;
+.campaign-response-box {
+  margin-top: 40px;
+  background-color: #fff;
+  padding: 30px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-.response-box p {
-  white-space: pre-wrap; /* Ensures response is displayed correctly */
+.campaign-response-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.campaign-response-text {
+  font-size: 1.2rem;
+  color: #333;
 }
