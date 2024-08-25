@@ -6,5 +6,19 @@ export default defineConfig({
   plugins: [react()],
   css: {
     devSourcemap: true
+  },
+  build: {
+    chunkSizeWarningLimit: 1000, // Increase chunk size warning limit to 1000 kB
+    rollupOptions: {
+      output: {
+        manualChunks(id) {
+          if (id.includes('node_modules')) {
+            // Separate vendor code into its own chunk
+            return 'vendor';
+          }
+        }
+      }
+    }
   }
 })
+
