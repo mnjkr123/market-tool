@@ -1,5 +1,6 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
+//Test to check 3:00 PM 08/25
 
 // https://vitejs.dev/config/
 export default defineConfig({
