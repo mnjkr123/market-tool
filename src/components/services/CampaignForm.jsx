@@ -35,8 +35,7 @@ const CampaignForm = () => {
             <HeaderV5 />
             <BreadCrumb breadCrumb="campaign" title1="Enhance Your Marketing" title2="With Our Campaign Tool" />
             <div className="container campaign-form-container">
-                <h1 style={{ fontWeight: 'bold', fontSize: '1.5em', backgroundColor: 'blue', color: 'white', textAlign: 'center', padding: '10px' }}>Marketing Tool</h1>
-
+                <h1 style={{ fontWeight: 'bold', fontSize: '1.5em', backgroundColor: 'blue', color: 'white', textAlign: 'center', padding: '5px' }}>Marketing Tool</h1>
                 <form onSubmit={handleSubmit} className="campaign-form">
                     <textarea
                         value={formInput}
