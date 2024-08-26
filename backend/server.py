@@ -13,6 +13,7 @@ load_dotenv()
 app = Flask(__name__)
 CORS(app)  # Enable CORS for all origins
 
+
 # Set up the LLM
 llm = HuggingFaceEndpoint(repo_id="mistralai/Mistral-7B-Instruct-v0.2")
 
@@ -35,6 +36,8 @@ def generate_word_document(title, content):
     
     return doc_stream
 
+
+
 @app.route('/generate', methods=['POST'])
 def generate():
     data = request.json
@@ -43,22 +46,30 @@ def generate():
     task_type_option = data.get('taskTypeOption')
     industry = data.get('industry')
     
-    if not query or not age_option or not task_type_option:
+    if not query or not age_option or not task_type_option or not industry:
         return jsonify({'error': 'Missing input fields'}), 400
     
-    response = get_llm_response(query, age_option, task_type_option, industry)
-    
-    if task_type_option in ['White paper', 'Sales proposal']:
-        # Generate a Word document for specific task types
-        doc_stream = generate_word_document(task_type_option, response)
-        return send_file(
-            doc_stream,
-            as_attachment=True,
-            download_name=f'{task_type_option}.docx',
-            mimetype='application/vnd.openxmlformats-officedocument.wordprocessingml.document'
-        )
-    
-    return jsonify({'response': response})
+    try:
+        # Get the response from the LLM
+        response = get_llm_response(query, age_option, task_type_option, industry)
+        
+        if task_type_option in ['White paper', 'Sales proposal']:
+            # Generate a Word document for specific task types
+            doc_stream = generate_word_document(task_type_option, response)
+            return send_file(
+                doc_stream,
+                as_attachment=True,
+                download_name=f'{task_type_option}.docx',
+                mimetype='application/vnd.openxmlformats-officedocument.wordprocessingml.document'
+            )
+        
+        return jsonify({'response': response})
+
+    except Exception as e:
+        # Log the exception for debugging
+        print(f"Exception occurred: {e}")
+        return jsonify({'error': 'Internal Server Error'}), 500
+
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(port=5000)
