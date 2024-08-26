@@ -8,7 +8,7 @@ import Home1Dark from './pages/homePages/Home1Dark';
 import Home2Dark from './pages/homePages/Home2Dark';
 import Home3Dark from './pages/homePages/Home3Dark';
 import BusinessDark from './pages/homePages/BusinessDark';
-import Campaign from './pages/servicePages/campaign.jsx'; 
+import Campaign from './pages/servicePages/Campaign'; 
 import Services from './pages/servicePages/Services';
 import Services2 from './pages/servicePages/Services2';
 import Services3 from './pages/servicePages/Services3';
@@ -45,7 +45,7 @@ const Routers = () => {
                 <Route path='/home-2-dark' element={<Home2Dark />}></Route>
                 <Route path='/home-3-dark' element={<Home3Dark />}></Route>
                 <Route path='/business-dark' element={<BusinessDark />}></Route>
-                <Route path="/campaign" element={<Campaign />} /> {/* Add this line */}
+                <Route path="/campaign" element={<Campaign />}></Route>
                 <Route path='/services' element={<Services />}></Route>
                 <Route path='/services-2' element={<Services2 />}></Route>
                 <Route path='/services-3' element={<Services3 />}></Route>
