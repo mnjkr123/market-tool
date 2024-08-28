@@ -1,20 +1,28 @@
 .campaign-form-container {
   padding: 50px 0;
-  background-color: #f9f9f9;
+  background-image: url('/img/services/background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgba(255, 255, 255, 0.8); /* Add a slight white overlay */
+  backdrop-filter: blur(5px); /* Apply a subtle blur effect */
 }
 
 .campaign-title {
   text-align: center;
   font-size: 2.5rem;
   margin-bottom: 30px;
+  color: #333;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Add a soft shadow to the text */
 }
 
 .campaign-form {
   max-width: 800px;
   margin: 0 auto;
-  background: #fff;
+  background: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
   padding: 30px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2); /* Increase the shadow for a more pronounced effect */
 }
 
 .campaign-textarea {
@@ -24,6 +32,7 @@
   border-radius: 5px;
   border: 1px solid #ddd;
   font-size: 1rem;
+  box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.1); /* Add inner shadow for depth */
 }
 
 .selectors-container {
@@ -43,6 +52,7 @@
   border-radius: 5px;
   border: 1px solid #ddd;
   font-size: 1rem;
+  box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .campaign-button {
@@ -54,6 +64,7 @@
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 .campaign-button:hover {
@@ -62,14 +73,17 @@
 
 .campaign-response-box {
   margin-top: 40px;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.9);
   padding: 30px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
 }
 
 .campaign-response-title {
   font-size: 2rem;
   margin-bottom: 20px;
+  color: #333;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .campaign-response-text {
