@@ -2828,9 +2828,10 @@ button i {
 =================================================================== */
 
 .breadcrumb-area {
-	overflow: hidden;
-	padding-top: 200px;
+    overflow: hidden;
+    padding-top: 100px; /* Reduced from 200px to 50px */
 }
+
 
 .breadcumb-items {
 	position: relative;
@@ -2843,10 +2844,11 @@ button i {
 	padding: 0;
 	position: relative;
 	z-index: 1;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	border-bottom: 2px solid;
-	padding-bottom: 25px;
+	padding-bottom: 5px;
 }
+
 
 .breadcrumb-area .breadcrumb>li+li::before {
 	content: "\f105";
@@ -2862,7 +2864,7 @@ button i {
 	position: relative;
 	display: inline-block;
 	z-index: 1;
-	font-weight: 700;
+	font-weight: 500;
 	margin-right: 13px;
 	font-size: 16px;
 	color: var(--color-heading);
@@ -2912,26 +2914,29 @@ button i {
 	display: none;
 }
 
+
 .breadcrumb-area h1 {
 	display: inline-block;
 	font-weight: 800;
 	margin-bottom: 0;
 	position: relative;
-	font-size: 42px;
+	font-size: 32px;
 }
 
 .breadcrumb-area h1::after {
 	position: absolute;
 	left: -100px;
-	top: -140px;
+	top: -70px;
 	content: "";
-	height: 250px;
-	width: 250px;
+	height: 50px;
+	width: 100px;
 	background: var(--white);
 	z-index: -1;
 	border-radius: 50%;
 	opacity: 0.3;
 }
+
+
 
 .breadcrumb-item {
 	position: relative;

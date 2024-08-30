@@ -35,7 +35,39 @@ const CampaignForm = () => {
             <HeaderV5 />
             <BreadCrumb breadCrumb="campaign" title1="Enhance Your Marketing" title2="With Our Campaign Tool" />
             <div className="container campaign-form-container">
-                <h1 style={{ fontWeight: 'bold', fontSize: '1.5em', backgroundColor: 'blue', color: 'white', textAlign: 'center', padding: '5px' }}>Marketing Tool</h1>
+            <div style={{ display: 'flex', justifyContent: 'center', marginTop: '0px', marginbottom: '10px' }}>
+            <div style={{ display: 'flex', justifyContent: 'center', marginTop: '0px', paddingBottom: '20px' }}>
+    <div style={{
+        background: 'blue', // Blue background color
+        padding: '10px 15px', // Padding inside the box
+        width: '100%',
+        maxWidth: '1500px',
+        borderRadius: '15px', // Rounded corners
+        boxShadow: '0 4px 15px rgba(0, 0, 0, 0.2)', // Subtle shadow for depth
+        animation: 'flashyBox 2s infinite alternate' // Flashy animation
+    }}>
+        <h1 style={{
+            fontWeight: 'bold',
+            fontSize: '1.5em',
+            color: 'white',
+            textAlign: 'center',
+            margin: '0'
+        }}>Marketing Tool</h1>
+    </div>
+</div>
+
+<style>
+{`
+@keyframes flashyBox {
+    0% { transform: scale(1); }
+    100% { transform: scale(1.05); }
+}
+`}
+</style>
+
+
+</div>
+
                 <form onSubmit={handleSubmit} className="campaign-form">
                     <textarea
                         value={formInput}
